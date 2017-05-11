@@ -35,7 +35,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Action</a></li>
-                                    <li><a href="views/posts/single.html">Single post</a></li>
+                                    <li><a href="#">Another action</a></li>
                                     <li><a href="#">Something else here</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="#">Separated link</a></li>
@@ -49,52 +49,7 @@
                 </div><!-- /.container-fluid -->
             </div><!-- /.container -->
         </nav>
-        <section class="header-banner">
-                <div class="main-header">
-                    <div class="main-header-content">
-                        <h1>Nam libero tempore, cum soluta nobis est</h1>
-                        <p>"Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis"</p>
-                        <a href="#target-bottom">
-                            <i class="fa fa-arrow-circle-down" style="font-size:52px;color:white"></i>
-                        </a>
-                    </div>
-                </div>
-        </section>   
-        <!--<section class="text">
-            <div class="container"></div>
-        </section>-->
-        <section class="banner">
-            <div class="container">
-                <h2>"Itaque earum rerum hic tenetur a sapiente <br> delectus, ut aut reiciendis"</h2>
-            </div>
-        </section>
-        <section class="text">
-            <div class="container">
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
-                </p>
-            </div>
-        </section>
-        <section class="banner">
-            <div class="container">
-                <h2>"At vero eos et accusamus et <br>iusto odio dignissimos"</h2>
-            </div>
-        </section>
-        <section class="text">
-            <div class="container">
-                <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
-                </p>
-            </div>
-        </section>
-        <section class="footer-banner">
-            <div class="container">
-                <h2>"At vero eos et accusamus et <br>iusto odio dignissimos"</h2>
-                <a href="#target-top">
-                    <i class="fa fa-arrow-circle-up" style="font-size:52px;color:white"></i>
-                </a>
-            </div>
-        </section>
+
     <footer class="main-footer">
         <div class="copyright">
             <p>Copyright &copy; 2017  Temporibus autem quibusdam et</p><a id="target-bottom"></a>

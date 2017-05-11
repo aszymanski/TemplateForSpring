@@ -16,8 +16,8 @@ section.text{
     /*background-color: #585858;
     color: #F2F2F2;
     text-align: center;*/
-    padding-top: 20pt;
-    padding-bottom: 20pt;
+    padding-top: 30pt;
+    padding-bottom: 30pt;
     font-family: 'Open Sans',Arial,sans-serif;
     letter-spacing: 1pt;
     line-height: 25pt;
@@ -76,14 +76,30 @@ div.main-header {
 .main-header-content {
 
 }
+@media (min-width:800px) {
+    .header-banner {
+            background-image: url('../images/forrest.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            min-height: 350px;
+            padding: 0px;
+            clear: both;
+            display: table;
+            width: 100%;
+    }
+}
 
-.header-banner {
-        background-image: url('../images/forrest.jpg');
-        min-height: 350px;
-        padding: 0px;
-        clear: both;
-        display: table;
-        width: 100%;
+@media (max-width:800px) {
+    .header-banner {
+            background-image: url('../images/forrest.jpg');
+            background-size: auto;
+            background-repeat: no-repeat;
+            min-height: 350px;
+            padding: 0px;
+            clear: both;
+            display: table;
+            width: 100%;
+    }
 }
 
 .navbar {
@@ -95,6 +111,20 @@ div.main-header {
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
+    letter-spacing: 1pt;
+    font-size: 14pt;
+}
+
+section.footer-banner{
+    background-color: #585858;
+    color: #F2F2F2;
+    text-align: center;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    font-family: 'Roboto',Times New Roman,serif;
+    box-shadow: 0px 5px 5px rgba(80,80,80,0.5);
+    letter-spacing: 2px;
+    margin-top: 0px;
 }
 
 a i {
