@@ -57,27 +57,29 @@
     <section class="post-body">
         <div class="container">
             <div class="admin-menu-section">
-                <h2>Posts</h2>
+                <h2>Add post</h2>
                 <div class="admin-menu">
-                    <div class="admin-item">                 
-                        <button type="button" class="btn btn-default admin" aria-label="Left Align"><a href="add_post.html">
-                            <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                        </a>
-                        </button>
-                        <span>Add item</span>
-                    </div>
-                    <div class="admin-item"> 
-                        <button type="button" class="btn btn-default admin" aria-label="Left Align">
-                        <span class="glyphicon glyphicon-minus-sign" aria-hidden="true"></span>
-                        </button>
-                        <span>Remove item</span>
-                    </div>    
-                    <div class="admin-item"> 
-                        <button type="button" class="btn btn-default admin" aria-label="Left Align">
-                        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
-                        </button>
-                        <span>Edit item</span>
-                    </div>
+                    <form>
+                        <div class="form-group post-input-fieds">
+                            <label for="title">Post title:</label>
+                            <input type="text" class="form-control" id="title">
+                        </div>
+                        <div class="form-group post-input-fieds">
+                            <label for="slug">Slug:</label>
+                            <input type="text" class="form-control" id="slug">
+                        </div>
+                        <div class="form-group post-input-fieds">
+                            <label for="teaser">Teaser:</label>
+                            <input type="text" class="form-control" id="teaser">
+                        </div>
+                        <div class="form-group post-input-fieds">
+                            <label for="content">Content:</label>
+                            <textarea class="form-control" rows="20" id="content"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-info" value="Submit Button">
+                    </form>
+                 </div>
+                   
                 </div>
             </div>
         </div>

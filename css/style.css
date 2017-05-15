@@ -155,3 +155,36 @@ section.post-body{
     line-height: 25pt;
     font-size: 12pt;
 }
+
+.admin {
+    font-size: 80px;
+
+
+}
+
+.admin-item {
+    float: left;
+    margin: 20px;
+    max-width: 105px;
+}
+
+.admin-menu{
+width: 100%;
+height: 100%;
+clear: both;
+text-align: center;
+}
+.admin-item span {
+    margin: auto;
+    width: 100%;
+}
+.admin-menu-section {
+    text-align: center;
+}
+
+form{
+}
+
+.post-input-fields {
+    width: 100%;
+}
